@@ -10,7 +10,7 @@ export default function Profile() {
           className="absolute inset-0 bg-zinc-200 animate-pulse rounded-full md:rounded-none"
         />
         <Image
-          src="/me.jpg"
+          src="/me.JPG"
           alt="Profile picture of Jie-En (Matthew) Yao"
           fill
           className="object-cover"
