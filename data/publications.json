@@ -1,0 +1,163 @@
+[
+    {
+        "title": "HCL-FF: Hierarchical and Contrastive Learning for Forward-Forward Algorithm",
+        "authors": [
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "Hong-En Chen"
+            },
+            {
+                "name": "C-C Jay Kuo"
+            }
+        ],
+        "venue": "CVPR 2026, IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "id": "hclff"
+    },
+    {
+        "title": "Descrip3D: Enhancing Large Language Model-based 3D Scene Understanding with Object-Level Text Descriptions",
+        "authors": [
+            {
+                "name": "Jintang Xue"
+            },
+            {
+                "name": "Ganning Zhao"
+            },
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "Hong-En Chen"
+            },
+            {
+                "name": "Yue Hu"
+            },
+            {
+                "name": "Meida Chen"
+            },
+            {
+                "name": "Suya You"
+            },
+            {
+                "name": "C-C Jay Kuo"
+            }
+        ],
+        "venue": "WACV 2026, IEEE/CVF Winter Conference on Applications of Computer Vision",
+        "link": "https://arxiv.org/abs/2507.14555",
+        "id": "descrip3d"
+    },
+    {
+        "title": "SHFE: Transparent And Green Image Classification Via Supervised Hierarchical Feature Extraction",
+        "authors": [
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "Xinyu Wang"
+            },
+            {
+                "name": "C-C Jay Kuo"
+            }
+        ],
+        "venue": "ICIPW 2025, IEEE International Conference on Image Processing Workshops",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11386284",
+        "id": "shfe"
+    },
+    {
+        "title": "Ma-Yolo: Video Object Detection Via Motion-Assisted Yolo",
+        "authors": [
+            {
+                "name": "Xinyu Wang"
+            },
+            {
+                "name": "Hong-Shuo Chen"
+            },
+            {
+                "name": "Zhiruo Zhou"
+            },
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "C-C Jay Kuo"
+            }
+        ],
+        "venue": "ICIPW 2025, IEEE International Conference on Image Processing Workshops",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11386241",
+        "id": "mayolo"
+    },
+    {
+        "title": "Local Implicit Normalizing Flow for Arbitrary Scale Image Super-Resolution",
+        "authors": [
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "Li-Yuan Tsao"
+            },
+            {
+                "name": "Yi-Chen Lo"
+            },
+            {
+                "name": "Roy Tseng"
+            },
+            {
+                "name": "Chia-Che Chang"
+            },
+            {
+                "name": "Chun-Yi Lee"
+            }
+        ],
+        "venue": "CVPR 2023, IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "link": "https://arxiv.org/abs/2303.05156",
+        "id": "linf"
+    },
+    {
+        "title": "ELDA: Using Edges to Have an Edge on Semantic Segmentation Based UDA",
+        "authors": [
+            {
+                "name": "Ting-Hsuan Liao"
+            },
+            {
+                "name": "Huang-Ru Liao"
+            },
+            {
+                "name": "Shan-Ya Yang"
+            },
+            {
+                "name": "Jie-En Yao",
+                "self": true
+            },
+            {
+                "name": "Li-Yuan Tsao"
+            },
+            {
+                "name": "Hsu-Shen Liu"
+            },
+            {
+                "name": "Bo-Wun Cheng"
+            },
+            {
+                "name": "Chen-Hao Chao"
+            },
+            {
+                "name": "Chia-Che Chang"
+            },
+            {
+                "name": "Yi-Chen Lo"
+            },
+            {
+                "name": "Chun-Yi Lee"
+            }
+        ],
+        "venue": "BMVC 2022, British Machine Vision Conference",
+        "link": "https://arxiv.org/abs/2211.08888",
+        "id": "elda"
+    }
+]

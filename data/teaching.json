@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Data Science Professional Practicum @ USC (Graduate Course)",
+        "desc": "Hosted weekly office hours and provided guidance on student projects",
+        "note": "Spring 2026, with Prof. Young Cho"
+    },
+    {
+        "title": "Principles of Programming for Data Science @ USC (Graduate Course)",
+        "desc": "Led weekly lab sessions and office hours, supporting 50+ students develop Python and data science foundations",
+        "note": "Fall 2025, with Prof. Alexey Tregubov"
+    },
+    {
+        "title": "Introduction to Programming @ NTHU (Undergraduate Course)",
+        "desc": "Hosted weekly TA session to help students develop their C++ programming proficiency",
+        "note": "Spring 2021, with Prof. Po-Chih Kuo"
+    }
+]

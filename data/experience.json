@@ -1,0 +1,33 @@
+[
+  {
+    "company": "MediaTek, Intelligence Vision Processing Team",
+    "link": "https://www.mediatek.com/",
+    "role": "AI Research Intern",
+    "location": "Hsinchu, Taiwan",
+    "date": "Jan – Dec 2022",
+    "items": [
+      {
+        "topic": "Super-Resolution",
+        "bullets": [
+          "Prototyped, optimized, and iterated on advanced deep learning architectures, efficiently translating research ideas into high-quality experimental results",
+          "Developed a novel arbitrary-scale super-resolution model, achieving state-of-the-art performance and publication at CVPR"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Industrial Technology Research Institute",
+    "link": "https://www.itri.org.tw/english/",
+    "role": "Data Science Intern",
+    "location": "Hsinchu, Taiwan",
+    "date": "Jul – Sep 2020",
+    "items": [
+      {
+        "topic": "",
+        "bullets": [
+          "Performed data preprocessing, feature engineering, and trained predictive Machine Learning models to forecast production quality, enabling data-driven quality control"
+        ]
+      }
+    ]
+  }
+]
