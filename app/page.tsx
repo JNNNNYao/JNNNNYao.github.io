@@ -7,39 +7,88 @@ import Service from "./section/service";
 import Misc from "./section/misc";
 import Footer from "./section/footer";
 
+const SITE_URL = "https://jnnnnyao.github.io";
+
+const profileJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  mainEntity: {
+    "@type": "Person",
+    "@id": `${SITE_URL}/#person`,
+    name: "Jie-En Yao",
+    alternateName: "Jie-En (Matthew) Yao",
+    url: SITE_URL,
+    image: `${SITE_URL}/me.JPG`,
+    jobTitle: "Ph.D. Student in Computer Science",
+    description:
+      "Computer vision and machine learning researcher at the University of Southern California.",
+    affiliation: {
+      "@type": "CollegeOrUniversity",
+      name: "University of Southern California",
+      url: "https://www.usc.edu/",
+    },
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "National Tsing Hua University",
+      url: "https://www.nthu.edu.tw/",
+    },
+    sameAs: [
+      "https://www.linkedin.com/in/MatthewYaoJN/",
+      "https://scholar.google.com/citations?user=4mk_dZwAAAAJ",
+      "https://dblp.org/pid/334/0580",
+      "https://github.com/JNNNNYao",
+    ],
+    knowsAbout: [
+      "Computer Vision",
+      "Machine Learning",
+      "Representation Learning",
+      "Visual Understanding",
+      "Generative Modeling",
+    ],
+  },
+};
+
 export default function Home() {
   return (
-    <main className="mx-auto px-[6%] max-w-[78rem] my-[4.2vw] grid grid-cols-1 md:grid-cols-4 gap-[3.2vw]">
-      <div className="col-span-1">
-        <Profile />
-        <nav className="hidden md:flex flex-col gap-1 mt-4 px-1 text-sm">
-          {[
-            { label: "About", href: "#bio" },
-            { label: "Publications", href: "#pub" },
-            { label: "Experience", href: "#experience" },
-            { label: "Teaching", href: "#teaching" },
-            { label: "Service", href: "#service" },
-            { label: "Miscellaneous", href: "#misc" },
-          ].map(({ label, href }) => (
-            <a
-              key={href}
-              href={href}
-              className="text-gray-500 hover:text-[#00275c] transition-colors duration-200"
-            >
-              {label}
-            </a>
-          ))}
-        </nav>
-      </div>
-      <div className="col-span-1 md:col-span-3">
-        <Bio />
-        <Pub />
-        <Experience />
-        <Teaching />
-        <Service />
-        <Misc />
-        <Footer />
-      </div>
-    </main>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(profileJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
+      <main className="mx-auto px-[6%] max-w-[78rem] my-[4.2vw] grid grid-cols-1 md:grid-cols-4 gap-[3.2vw]">
+        <div className="col-span-1">
+          <Profile />
+          <nav className="hidden md:flex flex-col gap-1 mt-4 px-1 text-sm">
+            {[
+              { label: "About", href: "#bio" },
+              { label: "Publications", href: "#pub" },
+              { label: "Experience", href: "#experience" },
+              { label: "Teaching", href: "#teaching" },
+              { label: "Service", href: "#service" },
+              { label: "Miscellaneous", href: "#misc" },
+            ].map(({ label, href }) => (
+              <a
+                key={href}
+                href={href}
+                className="text-gray-500 hover:text-[#00275c] transition-colors duration-200"
+              >
+                {label}
+              </a>
+            ))}
+          </nav>
+        </div>
+        <div className="col-span-1 md:col-span-3">
+          <Bio />
+          <Pub />
+          <Experience />
+          <Teaching />
+          <Service />
+          <Misc />
+          <Footer />
+        </div>
+      </main>
+    </>
   );
 }

@@ -7,14 +7,48 @@ const lora = Lora({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://jnnnnyao.github.io";
+const title = "Jie-En (Matthew) Yao";
+const description =
+  "Jie-En (Matthew) Yao is a Ph.D. student in Computer Science at the University of Southern California, researching computer vision and machine learning.";
+
 export const metadata: Metadata = {
-  title: "Jie-En (Matthew) Yao",
-  description:
-    "Jie-En (Matthew) Yao is a Ph.D. student in Computer Science at the University of Southern California. His research focuses on machine learning and computer vision.",
+  metadataBase: new URL(SITE_URL),
+  title,
+  description,
+  authors: [{ name: "Jie-En Yao", url: SITE_URL }],
+  creator: "Jie-En Yao",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    type: "profile",
+    url: "/",
+    title,
+    description,
+    siteName: title,
+    images: [{ url: "/me.JPG", alt: "Jie-En Yao" }],
+  },
+  twitter: {
+    card: "summary",
+    title,
+    description,
+    images: ["/me.JPG"],
+  },
   icons: {
     icon: "/orca_OpenMoji.svg",
   },
-  authors: [{ name: "Jie-En (Matthew) Yao" }],
 };
 
 export default function RootLayout({
